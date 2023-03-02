@@ -13,6 +13,7 @@ To run the project:
 2- You need to have Flutter framework already installed
 3- You need to run this command after you clone the project : flutter run -t lib/main.dart
 4- After step 3, you will see the below message, and press any choice that fits your environment
+
 Multiple devices found:
 Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.22621.1265]
 Chrome (web)      • chrome  • web-javascript • Google Chrome 110.0.5481.178
