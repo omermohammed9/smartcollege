@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import '../Data/courses_json.dart';
-import '../courses/Network.dart';
-import '../courses/SoftwareEngineering.dart';
-import '../courses/Weather.dart';
+
 
 class CoursesScreen extends StatefulWidget {
   const CoursesScreen({Key? key}) : super(key: key);
