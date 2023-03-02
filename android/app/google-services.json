@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072031499565",
+    "project_id": "smartcollege-3b448",
+    "storage_bucket": "smartcollege-3b448.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072031499565:android:9a25f73f8df68d5a37bfa4",
+        "android_client_info": {
+          "package_name": "com.example.smartcollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072031499565-ke28ejh8fgs64phjsroe6dlablgmn5gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi66WmfG2iEjo7PwMDmm1ndRusNhrEfE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072031499565-ke28ejh8fgs64phjsroe6dlablgmn5gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
