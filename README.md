@@ -4,9 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-This project was created during BootCamp Training for Flutter. It is about Application for smart college
-The application has 3 widgets/screens.
+During my BootCamp training for Flutter, I created an exciting project that serves as a foundation for a smart college application. The application includes three widgets/screens that allow for easy navigation and access to various features. Through this project, I honed my skills in designing and developing mobile applications using Flutter, a powerful tool for creating seamless and responsive user interfaces. This experience has prepared me for taking on more challenging projects and achieving success in the rapidly growing field of mobile app development.
 
 To run the project:
 1- You need to have Dart SDK already installed
