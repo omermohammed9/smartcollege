@@ -184,7 +184,8 @@ class ProfileScreenState extends State<ProfileScreen> {
                     ]),
               ),
             ],
-          )),
+          )
+          ),
     );
   }
 }
@@ -205,6 +206,7 @@ Widget rowChild(icon, text) {
         Icons.chevron_right,
         color: Colors.grey,
       )
-    ]),
+    ]
+    ),
   );
 }
