@@ -47,7 +47,7 @@ class ProfileScreenState extends State<ProfileScreen> {
                       padding: EdgeInsets.only(left: 10),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
+                        children: const[
                           Text('Omer .M A.'),
                           Text('Software Eng.'),
                         ],
@@ -65,7 +65,7 @@ class ProfileScreenState extends State<ProfileScreen> {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.green),
                     child: Padding(
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Column(
                         children: const [
                           Text(
@@ -86,7 +86,7 @@ class ProfileScreenState extends State<ProfileScreen> {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.green),
                     child: Padding(
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Column(
                         children: const [
                           Text(
@@ -107,7 +107,7 @@ class ProfileScreenState extends State<ProfileScreen> {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.green),
                     child: Padding(
-                      padding: EdgeInsets.all(10),
+                      padding: const EdgeInsets.all(10),
                       child: Column(
                         children: const [
                           Text(
@@ -147,10 +147,11 @@ class ProfileScreenState extends State<ProfileScreen> {
                     const Text('Notifications'),
                     const SizedBox(height: 10),
                     Padding(
-                      padding: EdgeInsets.only(bottom: 10),
-                      child: Row(children: [
-                        Icon(Icons.notifications_on_outlined),
-                        Expanded(
+                      padding: const EdgeInsets.only(bottom: 10),
+                      child: Row(
+                        children: [
+                        const Icon(Icons.notifications_on_outlined),
+                       const Expanded(
                             child: Padding(
                           padding: EdgeInsets.only(left: 10),
                           child: Text('Pop-Up Notifications'),
@@ -190,17 +191,17 @@ class ProfileScreenState extends State<ProfileScreen> {
 
 Widget rowChild(icon, text) {
   return Padding(
-    padding: EdgeInsets.only(bottom: 10),
+    padding: const EdgeInsets.only(bottom: 10),
     child: Row(children: [
       Icon(
         icon,
       ),
       Expanded(
           child: Padding(
-        padding: EdgeInsets.only(left: 15),
+        padding: const EdgeInsets.only(left: 15),
         child: Text(text),
       )),
-      Icon(
+     const Icon(
         Icons.chevron_right,
         color: Colors.grey,
       )

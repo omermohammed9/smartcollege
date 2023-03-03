@@ -5,10 +5,11 @@ import '../Data/courses_json.dart';
 class CoursesScreen extends StatefulWidget {
   const CoursesScreen({Key? key}) : super(key: key);
   @override
-  _CoursesScreenState createState() => _CoursesScreenState();
+  CoursesScreenState createState() => CoursesScreenState();
 }
 
-class _CoursesScreenState extends State<CoursesScreen> {
+class CoursesScreenState extends State<CoursesScreen> {
+ @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -27,17 +28,17 @@ class _CoursesScreenState extends State<CoursesScreen> {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: const [
               Text (
                 'Current Courses',
-                style: const TextStyle(
+                style:  TextStyle(
                     color: Colors.black,
                     fontSize: 18,
                     fontWeight: FontWeight.w700),
               ),
               Text(
                 "See More",
-                style: const TextStyle(
+                style:  TextStyle(
                     color: Colors.blue,
                     fontSize: 14,
                     fontWeight: FontWeight.w400),

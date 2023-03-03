@@ -6,10 +6,10 @@ import 'package:smartcollege/screens/profile.dart';
 
 class Nav_Main extends StatefulWidget {
   @override
-  _Nav_mainState createState() => _Nav_mainState();
+  Nav_mainState createState() => Nav_mainState();
 }
 
-class _Nav_mainState extends State<Nav_Main> {
+class Nav_mainState extends State<Nav_Main> {
   int screenIndex = 0;
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class _Nav_mainState extends State<Nav_Main> {
   }
 
   Widget getScreen() {
-    List<Widget> screen = [HomeScreen(), ProfileScreen(), CoursesScreen()];
+    List<Widget> screen = const [HomeScreen(), ProfileScreen(), CoursesScreen()];
     return IndexedStack(index: screenIndex, children: screen);
   }
 
